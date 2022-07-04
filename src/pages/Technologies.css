@@ -1,0 +1,15 @@
+.container-tech {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#tech-heading {
+  font-size: 3rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 80px;
+}

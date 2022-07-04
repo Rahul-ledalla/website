@@ -1,0 +1,76 @@
+#industries-title {
+  font-size: 3rem;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.industries-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+.industry-item {
+  width: 180px;
+  height: 180px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.industry-item img {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+}
+
+.industry-item.indigo {
+  background: #6610f2;
+}
+
+.industry-item.blue {
+  background: #007bff;
+}
+
+.industry-item.purple {
+  background: #6f42c1;
+}
+.industry-item.pink {
+  background: #e83e8c;
+}
+.industry-item.red {
+  background: #dc3545;
+}
+.industry-item.orange {
+  background: #fd7e14;
+}
+.industry-item.yellow {
+  background: #ffc107;
+}
+.industry-item.green {
+  background: #28a745;
+}
+.industry-item.teal {
+  background: #20c997;
+}
+.industry-item.cyan {
+  background: #17a2b8;
+}
+.industry-item.gray {
+  background: #6c757d;
+}
+.industry-item.grayDark {
+  background: #343a40;
+}
+.industry-item.primary {
+  background: #007bff;
+}
+.industry-item.dark {
+  background: #343a40;
+}
