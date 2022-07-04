@@ -5,13 +5,11 @@ import ecom from "../../images/industries/icon-industry-e-commerce.png";
 import lifestyle from "../../images/industries/icon-industry-lifestyle.png";
 import finance from "../../images/industries/icon-industry-finance.png";
 import packaging from "../../images/industries/icon-industry-packaging.png";
-import humanResource from "../../images/industries/icon-industry-human-resources.png";
 import banking from "../../images/industries/icon-industry-banking.png";
 import immigration from "../../images/industries/icon-industry-immigration.png";
 import funding from "../../images/industries/icon-industry-funding.png";
 import socialWelfare from "../../images/industries/icon-industry-ngo.png";
 import foodBevarages from "../../images/industries/icon-industry-food-bevarages.png";
-import mediaCommunication from "../../images/industries/icon-media-communication.png";
 
 // const blue = "#007bff";
 // const indigo = "#6610f2";
@@ -72,12 +70,6 @@ const industryList = [
     title: "Packaging",
   },
   {
-    id: "08",
-    image: humanResource,
-    color: "green",
-    title: "Human-Resource",
-  },
-  {
     id: "09",
     image: banking,
     color: "grayDark",
@@ -99,19 +91,13 @@ const industryList = [
     id: "12",
     image: socialWelfare,
     color: "yellow",
-    title: "Social Welfare",
+    title: "Welfare",
   },
   {
     id: "13",
     image: foodBevarages,
     color: "pink",
-    title: "Food & Bevarages",
-  },
-  {
-    id: "14",
-    image: mediaCommunication,
-    color: "blue",
-    title: "Media Communication",
+    title: "Food",
   },
 ];
 
